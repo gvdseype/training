@@ -1,4 +1,4 @@
-let obj1 = {'1': 'a', '2': 'b'};
-let obj2 = Object.assign({}, obj1);
+let name = {test: 1, test2: 2}
 
-console.log(obj2);
+delete name.test;
+console.log(name);
